@@ -1,0 +1,162 @@
+{
+  "schemaVersion": 4,
+  "library": {
+    "name": "Drones",
+    "description": "Drone textures",
+    "author": "publicsamples",
+    "license": "CC0-1.0",
+    "licenseUrl": "",
+    "version": "1.0",
+    "website": "https://github.com/publicsamples/Drones",
+    "createdAt": "2026-07-28"
+  },
+  "sources": {
+    "lossless": {
+      "baseUrl": "https://raw.githubusercontent.com/zmmac1/drones/main/",
+      "format": "wav"
+    }
+  },
+  "sourceFormat": "nki",
+  "volumeConvention": "unity_0.5",
+  "panLaw": "constant_power",
+  "instruments": [
+    {
+      "id": "gr75",
+      "name": "gr75",
+      "category": "other",
+      "subcategory": "gr75",
+      "articulation": "",
+      "description": "Converted from NKI: gr75.nki",
+      "lowestNote": 12,
+      "highestNote": 119,
+      "zones": [
+        {
+          "loNote": 12,
+          "hiNote": 119,
+          "rootNote": 60,
+          "loVelocity": 1,
+          "hiVelocity": 127,
+          "losslessPath": "../../../../Under Construction/gr75.aif",
+          "groupIndex": 0,
+          "sampleStart": 0,
+          "sampleEnd": 0,
+          "fadeLowKey": 0,
+          "fadeHighKey": 0,
+          "fadeLowVelocity": 0,
+          "fadeHighVelocity": 0,
+          "zoneVolume": 1.0,
+          "zonePan": 0.0,
+          "zoneTune": 1.0,
+          "sampleResolution": 21,
+          "sampleRate": 44100,
+          "numChannels": 2,
+          "numFrames": 282240,
+          "roundRobin": 1,
+          "trigger": "attack",
+          "previewOpus48Path": "../../../../Under Construction/gr75.opus",
+          "loops": [
+            {
+              "mode": "until_end",
+              "loopStart": 1,
+              "loopLength": 0,
+              "loopCount": 282240,
+              "alternating": false,
+              "loopTuning": 2.350988701644575e-38,
+              "crossfadeLength": 1065353216
+            }
+          ]
+        }
+      ],
+      "zoneCount": 1,
+      "kontaktProgram": {
+        "midiTranspose": 0,
+        "instrumentVolume": 0.5,
+        "instrumentPan": 0.0,
+        "instrumentTune": 1.0,
+        "clipLowVelocity": 1,
+        "clipHighVelocity": 127,
+        "clipLowKey": 0,
+        "clipHighKey": 127,
+        "defaultKeySwitch": 65535,
+        "instrumentAuthor": "Kontakt",
+        "instrumentUrl": "",
+        "instrumentCredits": "(null)"
+      },
+      "kontaktGroups": [
+        {
+          "index": 0,
+          "name": "1 samples",
+          "volume": 1.0,
+          "pan": 0.0,
+          "tune": 1.0,
+          "keyTracking": true,
+          "reverse": false,
+          "releaseTrigger": false,
+          "releaseTriggerNoteMonophonic": true,
+          "muted": false,
+          "soloed": false,
+          "releaseTriggerCounter": 0,
+          "voiceGroupIdx": -1,
+          "fxIdxAmpSplitPoint": 6,
+          "interpolationQuality": 0,
+          "midiChannel": -1
+        }
+      ],
+      "envelopes": [
+        {
+          "target": "volume",
+          "type": "ahdsr",
+          "attack": 0.0,
+          "hold": 0.0,
+          "decay": 500.0,
+          "sustain": 1.0,
+          "release": 300.0,
+          "curve": -0.3319999873638153,
+          "ahdOnly": false,
+          "intensity": 1.0,
+          "groupIndex": 0
+        }
+      ],
+      "modulators": [
+        {
+          "type": "internal",
+          "source": "ENV_AHDSR",
+          "target": "volume",
+          "intensity": 1.0,
+          "modulatorSourceName": "ENV_AHDSR",
+          "modulationSourceIndex": 2,
+          "version": 128,
+          "isBypassed": false,
+          "isRetrigger": true,
+          "groupIndex": 0
+        },
+        {
+          "type": "external",
+          "source": "velocity",
+          "target": "volume",
+          "intensity": 0.3937009871006012,
+          "sourceType": 6,
+          "destType": 59,
+          "groupIndex": 0
+        },
+        {
+          "type": "external",
+          "source": "pitchBend",
+          "target": "pitch",
+          "intensity": 0.16666699945926666,
+          "sourceType": 1,
+          "destType": 56,
+          "groupIndex": 0
+        }
+      ],
+      "kontaktScripts": [],
+      "kontaktSourceNki": {
+        "formatVersion": "K5+/K6",
+        "isEncrypted": false,
+        "isMonolith": false,
+        "nkiPath": "gr75.nki",
+        "parseTime": "2026-07-28T09:08:30.589964Z"
+      }
+    }
+  ]
+}

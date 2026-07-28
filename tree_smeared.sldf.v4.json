@@ -1,0 +1,197 @@
+{
+  "schemaVersion": 4,
+  "library": {
+    "name": "Drones",
+    "description": "Drone textures",
+    "author": "publicsamples",
+    "license": "CC0-1.0",
+    "licenseUrl": "",
+    "version": "1.0",
+    "website": "https://github.com/publicsamples/Drones",
+    "createdAt": "2026-07-28"
+  },
+  "sources": {
+    "lossless": {
+      "baseUrl": "https://raw.githubusercontent.com/zmmac1/drones/main/",
+      "format": "wav"
+    }
+  },
+  "sourceFormat": "nki",
+  "volumeConvention": "unity_0.5",
+  "panLaw": "constant_power",
+  "instruments": [
+    {
+      "id": "tree_smeared",
+      "name": "Tree Smeared",
+      "category": "other",
+      "subcategory": "Tree Smeared",
+      "articulation": "",
+      "description": "Converted from NKI: Tree Smeared.nki",
+      "lowestNote": 0,
+      "highestNote": 127,
+      "zones": [
+        {
+          "loNote": 0,
+          "hiNote": 127,
+          "rootNote": 23,
+          "loVelocity": 1,
+          "hiVelocity": 127,
+          "losslessPath": "../../../../Under Construction/drumtrackaif*kitedownmp3-[2].wav",
+          "groupIndex": 0,
+          "sampleStart": 171092,
+          "sampleEnd": 0,
+          "fadeLowKey": 0,
+          "fadeHighKey": 0,
+          "fadeLowVelocity": 0,
+          "fadeHighVelocity": 0,
+          "zoneVolume": 1.0,
+          "zonePan": 0.0,
+          "zoneTune": 1.0,
+          "sampleResolution": 3,
+          "sampleRate": 44100,
+          "numChannels": 2,
+          "numFrames": 6674819,
+          "roundRobin": 1,
+          "trigger": "attack",
+          "previewOpus48Path": "../../../../Under Construction/drumtrackaif*kitedownmp3-[2].opus"
+        }
+      ],
+      "zoneCount": 1,
+      "kontaktProgram": {
+        "midiTranspose": 0,
+        "instrumentVolume": 0.6929659247398376,
+        "instrumentPan": 0.0,
+        "instrumentTune": 1.0,
+        "clipLowVelocity": 1,
+        "clipHighVelocity": 127,
+        "clipLowKey": 0,
+        "clipHighKey": 127,
+        "defaultKeySwitch": 65535,
+        "instrumentAuthor": "Kontakt",
+        "instrumentUrl": "",
+        "instrumentCredits": "(null)"
+      },
+      "kontaktGroups": [
+        {
+          "index": 0,
+          "name": "1 samples",
+          "volume": 1.0,
+          "pan": 0.0,
+          "tune": 1.0,
+          "keyTracking": true,
+          "reverse": false,
+          "releaseTrigger": false,
+          "releaseTriggerNoteMonophonic": true,
+          "muted": false,
+          "soloed": false,
+          "releaseTriggerCounter": 0,
+          "voiceGroupIdx": -1,
+          "fxIdxAmpSplitPoint": 6,
+          "interpolationQuality": 0,
+          "midiChannel": -1
+        }
+      ],
+      "envelopes": [
+        {
+          "target": "volume",
+          "type": "ahdsr",
+          "attack": 0.0,
+          "hold": 0.0,
+          "decay": 25000.04296875,
+          "sustain": 1.0,
+          "release": 0.0,
+          "curve": -0.3319999873638153,
+          "ahdOnly": false,
+          "intensity": 1.0,
+          "groupIndex": 0
+        },
+        {
+          "target": "filterCutoff",
+          "type": "ahdsr",
+          "attack": 0.0,
+          "hold": 0.0,
+          "decay": 3622.351806640625,
+          "sustain": 0.03881451487541199,
+          "release": 0.0,
+          "curve": -0.3319999873638153,
+          "ahdOnly": false,
+          "intensity": 0.0,
+          "groupIndex": 0
+        }
+      ],
+      "modulators": [
+        {
+          "type": "internal",
+          "source": "ENV_AHDSR",
+          "target": "volume",
+          "intensity": 1.0,
+          "modulatorSourceName": "ENV_AHDSR",
+          "modulationSourceIndex": 2,
+          "version": 128,
+          "isBypassed": false,
+          "isRetrigger": true,
+          "groupIndex": 0
+        },
+        {
+          "type": "internal",
+          "source": "ENV_AHDSR",
+          "target": "filterCutoff",
+          "intensity": 0.0,
+          "modulatorSourceName": "ENV_AHDSR",
+          "modulationSourceIndex": 2,
+          "version": 128,
+          "isBypassed": false,
+          "isRetrigger": true,
+          "groupIndex": 0
+        },
+        {
+          "type": "internal",
+          "source": "LFO_SINE",
+          "target": "filterCutoff",
+          "intensity": 0.0,
+          "modulatorSourceName": "LFO_SINE",
+          "modulationSourceIndex": 1,
+          "version": 128,
+          "isBypassed": false,
+          "isRetrigger": true,
+          "groupIndex": 0
+        },
+        {
+          "type": "external",
+          "source": "velocity",
+          "target": "volume",
+          "intensity": 0.3937009871006012,
+          "sourceType": 6,
+          "destType": 59,
+          "groupIndex": 0
+        },
+        {
+          "type": "external",
+          "source": "pitchBend",
+          "target": "pitch",
+          "intensity": 0.16666699945926666,
+          "sourceType": 1,
+          "destType": 56,
+          "groupIndex": 0
+        },
+        {
+          "type": "external",
+          "source": "midiCC",
+          "target": "unknown(68)",
+          "intensity": 1.0,
+          "sourceType": 4,
+          "destType": 68,
+          "groupIndex": 0
+        }
+      ],
+      "kontaktScripts": [],
+      "kontaktSourceNki": {
+        "formatVersion": "K5+/K6",
+        "isEncrypted": false,
+        "isMonolith": false,
+        "nkiPath": "Tree Smeared.nki",
+        "parseTime": "2026-07-28T09:08:30.559724Z"
+      }
+    }
+  ]
+}
